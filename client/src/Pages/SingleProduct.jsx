@@ -11,10 +11,8 @@ export const SingleProduct = () => {
     const products=useSelector((store)=>store.productsReducer.products);
     useEffect(()=>{
         const product=products.find((el) => el.id===+id)
-        //  console.log(product)
         setData(product)
     },[id,products])
-    // console.log(data)
   return (
     <div id='banner1'>
     <DIV>

@@ -15,7 +15,7 @@ export const Singup = () => {
             email,
             password
         }
-        fetch("https://tasty-khakis-tuna.cyclic.app/users/register",{
+        fetch("https://masai-forum-vjeg.vercel.app/users/register",{
             method:"POST",
             headers:{
                 "content-type":"application/json"

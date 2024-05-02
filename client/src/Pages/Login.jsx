@@ -26,7 +26,6 @@ export const Login = () => {
         }
         dispatch(
             login(userData)).then(()=>{
-            // console.log("yes") location.state,{replace:true}
             navigate(location.state,{replace:true})
            })
     }

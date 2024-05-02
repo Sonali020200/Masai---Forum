@@ -15,7 +15,7 @@ export const addProduct=(newProduct)=>(dispatch)=>{
 
 export const getProduct=(paramObj)=>(dispatch)=>{
     dispatch({type:PRODUCT_FAILURE})
-    axios.get("https://tasty-khakis-tuna.cyclic.app/posts",paramObj)
+    axios.get("https://masai-forum-vjeg.vercel.app//posts",paramObj)
         .then((res)=>{
             dispatch({type:GET_PRODUCT_SUCCESS,payload:res.data.post})
         })
